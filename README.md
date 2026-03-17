@@ -62,28 +62,54 @@ Main goals:
 
 ## 📊 Key Business Insights Delivered
 
-- **Portfolio Overview**  
-  - Total Clients: 3,000  
-  - Average Client Age: ~51 years  
-  - Average Estimated Income: ~$171,300  
-  - Total Loans: **$4.4 billion**  
-  - Total Deposits: **$3.8 billion**  
-  - Loan-to-Deposit Ratio: **116%**
+The dashboard and analysis uncovered several high-impact observations about the retail banking portfolio. These insights were derived from:
 
-- **Loan Portfolio Highlights**  
-  - Business Lending dominates → **$2.6 billion** (≈59% of total loans)  
-  - Medium income band clients hold the largest loan volume  
-  - Private Banking clients show significantly higher average deposits
+- **SQL queries** (aggregation, grouping, cohort analysis) to extract segment-level patterns  
+- **Python EDA** (distributions, binning, visualizations in Jupyter) to understand data skews and validate assumptions  
+- **Power BI modeling & visuals** to bring everything together interactively
 
-- **Deposit Behavior**  
-  - Private Bank segment contributes ~49% of total deposits  
-  - Highest deposit growth visible in recent join cohorts (2020–2021)
+### Portfolio Overview
+- Total Clients: **3,000**
+- Average Client Age: **~51 years**
+- Average Estimated Income: **~$171,300**
+- Total Loans: **$4.4 billion**
+- Total Deposits: **$3.8 billion**
+- Loan-to-Deposit Ratio: **116%**
 
-- **Other Observations**  
-  - Most clients belong to **Jade** loyalty tier with **High** fee structure  
-  - Majority nationality: **European**  
-  - Average credit card balance per client: ~$3,180  
-  - Average risk weighting: ~2.25
+### Loan Portfolio Highlights
+- Business Lending dominates → **$2.6 billion** (≈**59%** of total loans)
+- Medium income band clients hold the largest loan volume
+- Private Banking clients show significantly higher average deposits
+
+### Deposit Behavior
+- Private Bank segment contributes **~49%** of total deposits
+- Highest deposit growth visible in recent join cohorts (**2020–2021**)
+
+### Other Observations
+- Most clients belong to **Jade** loyalty tier with **High** fee structure
+- Majority nationality: **European**
+- Average credit card balance per client: **~$3,180**
+- Average risk weighting: **~2.25**
+
+### How These Insights Were Uncovered
+- **SQL layer**  
+  Five targeted analytical queries were run on the MySQL `banking` table to quantify:
+  - Nationality distribution & deposit contribution  
+  - Loyalty tier concentration  
+  - Credit card penetration  
+  - Occupation-based loan drivers  
+  - Join-year cohort trends  
+  → Full script: [sql/key_business_queries.sql](./sql/key_business_queries.sql)
+
+- **Python EDA**  
+  In Jupyter Notebook:
+  - Univariate countplots & histograms for BRId, Gender, IAid, Nationality, Occupation, Loyalty, Income Band
+  - Binning of Estimated Income into Low/Med/High
+  - Bivariate views (e.g., Nationality × BRId)
+  - Identified skews: Private Banking dominance, advisor workload imbalance, European majority, Medium income prevalence  
+  → Full notebook with code & plots: [Banking_Data_EDA.ipynb](./python/Banking_data_EDA.ipynb)
+
+These SQL + Python steps directly informed which segments and metrics to emphasize in the Power BI dashboard (Private Banking strength, business lending concentration, loyalty gaps, recent client value, etc.).
 
 ## 🛠️ Tech Stack
 
