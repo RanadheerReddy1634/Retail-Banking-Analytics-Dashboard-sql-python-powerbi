@@ -1,8 +1,8 @@
-# Retail-Banking-Analytics-Dashboard-sql-python-powerbi
+# 🏦 Retail-Banking-Analytics-Dashboard-sql-python-powerbi
 
 **Interactive Power BI dashboard analyzing 3,000 retail banking clients** — built end-to-end from raw data to business insights.
 
-## Problem Statement
+## 🔍 Problem Statement
 
 Retail banks manage large volumes of customer data across loans, deposits, credit cards, savings, and other products. However, critical insights are often scattered across spreadsheets, legacy systems, or disconnected reports, making it difficult for:
 - Relationship managers to identify high-value clients and cross-sell opportunities
@@ -99,7 +99,7 @@ The dashboard and analysis uncovered several high-impact observations about the 
   - Credit card penetration  
   - Occupation-based loan drivers  
   - Join-year cohort trends  
-  → Full script: [sql/key_business_queries.sql](./sql/key_business_queries.sql)
+  → Full script: [key_business_queries.sql](./key_business_queries.sql)
 
 - **Python EDA**  
   In Jupyter Notebook:
@@ -107,7 +107,7 @@ The dashboard and analysis uncovered several high-impact observations about the 
   - Binning of Estimated Income into Low/Med/High
   - Bivariate views (e.g., Nationality × BRId)
   - Identified skews: Private Banking dominance, advisor workload imbalance, European majority, Medium income prevalence  
-  → Full notebook with code & plots: [Banking_Data_EDA.ipynb](./python/Banking_Data_EDA.ipynb)
+  → Python EDA Notebook : [./Banking_Data_EDA.ipynb]
 
 These SQL + Python steps directly informed which segments and metrics to emphasize in the Power BI dashboard (Private Banking strength, business lending concentration, loyalty gaps, recent client value, etc.).
 
