@@ -107,7 +107,7 @@ The dashboard and analysis uncovered several high-impact observations about the 
   - Binning of Estimated Income into Low/Med/High
   - Bivariate views (e.g., Nationality × BRId)
   - Identified skews: Private Banking dominance, advisor workload imbalance, European majority, Medium income prevalence  
-  → Full notebook with code & plots: [Banking_Data_EDA.ipynb](./python/Banking_data_EDA.ipynb)
+  → Full notebook with code & plots: [Banking_Data_EDA.ipynb](./python/Banking_Data_EDA.ipynb)
 
 These SQL + Python steps directly informed which segments and metrics to emphasize in the Power BI dashboard (Private Banking strength, business lending concentration, loyalty gaps, recent client value, etc.).
 
