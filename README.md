@@ -60,6 +60,40 @@ Main goals:
    - Created 4 main pages: Home, Loan Analysis, Deposit Analysis, Summary  
    - Used cards, bar/column charts, line charts, pie/donut charts, slicers & bookmarks
 
+## 📊 Dashboard Preview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 📊 Key Business Insights Delivered
 
 The dashboard and analysis uncovered several high-impact observations about the retail banking portfolio. These insights were derived from:
