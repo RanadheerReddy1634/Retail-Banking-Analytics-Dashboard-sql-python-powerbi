@@ -66,44 +66,13 @@ Main goals:
 ![Home](images/home.png)
 
 ### Loan Analysis
-
+![Loan Analysis](images/loan_analysis.png)
 
 ### Deposit Analysis
-
-
+![Deposit Analysis](images/deposit_analysis.png)
 
 ### Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Summary](images/summay.png)
 
 
 ## 📊 Key Business Insights Delivered
