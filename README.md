@@ -72,7 +72,7 @@ Main goals:
 ![Deposit Analysis](images/deposit_analysis.png)
 
 ### Summary
-![Summary](images/summay.png)
+![Summary](images/summary.png)
 
 
 ## 📊 Key Business Insights Delivered
