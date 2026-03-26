@@ -62,6 +62,18 @@ Main goals:
 
 ## 📊 Dashboard Preview
 
+### Home Page
+![Home](images/home.png)
+
+### Loan Analysis
+
+
+### Deposit Analysis
+
+
+
+### Summary
+
 
 
 
